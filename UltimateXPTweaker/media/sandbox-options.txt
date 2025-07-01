@@ -1,0 +1,634 @@
+VERSION = 1,
+
+
+
+option UXPT.Fitness {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Fitness,
+}
+option UXPT_Advanced.Fitness_0 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Fitness_0,
+}
+option UXPT_Advanced.Fitness_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Fitness_1,
+}
+option UXPT_Advanced.Fitness_2 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Fitness_2,
+}
+option UXPT_Advanced.Fitness_3 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Fitness_3,
+}
+
+option UXPT.Strength {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Strength,
+}
+option UXPT_Advanced.Strength_0 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Strength_0,
+}
+option UXPT_Advanced.Strength_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Strength_1,
+}
+option UXPT_Advanced.Strength_2 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Strength_2,
+}
+option UXPT_Advanced.Strength_3 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Strength_3,
+}
+
+
+
+
+option UXPT.Sprinting {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Sprinting,
+}
+option UXPT_Advanced.Sprinting_0 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Sprinting_0,
+}
+option UXPT_Advanced.Sprinting_1 {
+    type = double, default = 1.25, min = 1.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Sprinting_1,
+}
+option UXPT_Advanced.Sprinting_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Sprinting_2,
+}
+option UXPT_Advanced.Sprinting_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Sprinting_3,
+}
+
+option UXPT.Lightfoot {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Lightfooted,
+}
+option UXPT_Advanced.Lightfoot_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Lightfooted_0,
+}
+option UXPT_Advanced.Lightfoot_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Lightfooted_1,
+}
+option UXPT_Advanced.Lightfoot_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Lightfooted_2,
+}
+option UXPT_Advanced.Lightfoot_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Lightfooted_3,
+}
+
+option UXPT.Nimble {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Nimble,
+}
+option UXPT_Advanced.Nimble_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Nimble_0,
+}
+option UXPT_Advanced.Nimble_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Nimble_1,
+}
+option UXPT_Advanced.Nimble_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Nimble_2,
+}
+option UXPT_Advanced.Nimble_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Nimble_3,
+}
+
+option UXPT.Sneak {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Sneaking,
+}
+option UXPT_Advanced.Sneak_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Sneaking_0,
+}
+option UXPT_Advanced.Sneak_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Sneaking_1,
+}
+option UXPT_Advanced.Sneak_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Sneaking_2,
+}
+option UXPT_Advanced.Sneak_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Sneaking_3,
+}
+
+
+
+option UXPT.Axe {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Axe,
+}
+option UXPT_Advanced.Axe_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Axe_0,
+}
+option UXPT_Advanced.Axe_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Axe_1,
+}
+option UXPT_Advanced.Axe_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Axe_2,
+}
+option UXPT_Advanced.Axe_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Axe_3,
+}
+
+option UXPT.Blunt {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_LongBlunt,
+}
+option UXPT_Advanced.Blunt_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_LongBlunt_0,
+}
+option UXPT_Advanced.Blunt_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_LongBlunt_1,
+}
+option UXPT_Advanced.Blunt_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_LongBlunt_2,
+}
+option UXPT_Advanced.Blunt_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_LongBlunt_3,
+}
+
+option UXPT.SmallBlunt {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_ShortBlunt,
+}
+option UXPT_Advanced.SmallBlunt_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_ShortBlunt_0,
+}
+option UXPT_Advanced.SmallBlunt_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_ShortBlunt_1,
+}
+option UXPT_Advanced.SmallBlunt_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_ShortBlunt_2,
+}
+option UXPT_Advanced.SmallBlunt_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_ShortBlunt_3,
+}
+
+option UXPT.LongBlade {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_LongBlade,
+}
+option UXPT_Advanced.LongBlade_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_LongBlade_0,
+}
+option UXPT_Advanced.LongBlade_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_LongBlade_1,
+}
+option UXPT_Advanced.LongBlade_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_LongBlade_2,
+}
+option UXPT_Advanced.LongBlade_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_LongBlade_3,
+}
+
+option UXPT.SmallBlade {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_ShortBlade,
+}
+option UXPT_Advanced.SmallBlade_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_ShortBlade_0,
+}
+option UXPT_Advanced.SmallBlade_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_ShortBlade_1,
+}
+option UXPT_Advanced.SmallBlade_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_ShortBlade_2,
+}
+option UXPT_Advanced.SmallBlade_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_ShortBlade_3,
+}
+
+option UXPT.Spear {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Spear,
+}
+option UXPT_Advanced.Spear_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Spear_0,
+}
+option UXPT_Advanced.Spear_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Spear_1,
+}
+option UXPT_Advanced.Spear_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Spear_2,
+}
+option UXPT_Advanced.Spear_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Spear_3,
+}
+
+option UXPT.Maintenance {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Maintenance,
+}
+option UXPT_Advanced.Maintenance_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Maintenance_0,
+}
+option UXPT_Advanced.Maintenance_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Maintenance_1,
+}
+option UXPT_Advanced.Maintenance_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Maintenance_2,
+}
+option UXPT_Advanced.Maintenance_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Maintenance_3,
+}
+
+
+
+option UXPT.Woodwork {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Carpentry,
+}
+option UXPT_Advanced.Woodwork_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Carpentry_0,
+}
+option UXPT_Advanced.Woodwork_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Carpentry_1,
+}
+option UXPT_Advanced.Woodwork_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Carpentry_2,
+}
+option UXPT_Advanced.Woodwork_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Carpentry_3,
+}
+
+option UXPT.Cooking {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Cooking,
+}
+option UXPT_Advanced.Cooking_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Cooking_0,
+}
+option UXPT_Advanced.Cooking_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Cooking_1,
+}
+option UXPT_Advanced.Cooking_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Cooking_2,
+}
+option UXPT_Advanced.Cooking_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Cooking_3,
+}
+
+option UXPT.Farming {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Farming,
+}
+option UXPT_Advanced.Farming_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Farming_0,
+}
+option UXPT_Advanced.Farming_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Farming_1,
+}
+option UXPT_Advanced.Farming_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Farming_2,
+}
+option UXPT_Advanced.Farming_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Farming_3,
+}
+
+option UXPT.Doctor {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_FirstAid,
+}
+option UXPT_Advanced.Doctor_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_FirstAid_0,
+}
+option UXPT_Advanced.Doctor_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_FirstAid_1,
+}
+option UXPT_Advanced.Doctor_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_FirstAid_2,
+}
+option UXPT_Advanced.Doctor_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_FirstAid_3,
+}
+
+option UXPT.Electricity {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Electrical,
+}
+option UXPT_Advanced.Electricity_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Electrical_0,
+}
+option UXPT_Advanced.Electricity_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Electrical_1,
+}
+option UXPT_Advanced.Electricity_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Electrical_2,
+}
+option UXPT_Advanced.Electricity_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Electrical_3,
+}
+
+option UXPT.MetalWelding {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Metalworking,
+}
+option UXPT_Advanced.MetalWelding_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Metalworking_0,
+}
+option UXPT_Advanced.MetalWelding_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Metalworking_1,
+}
+option UXPT_Advanced.MetalWelding_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Metalworking_2,
+}
+option UXPT_Advanced.MetalWelding_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Metalworking_3,
+}
+
+
+
+option UXPT.Mechanics {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Mechanics,
+}
+option UXPT_Advanced.Mechanics_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Mechanics_0,
+}
+option UXPT_Advanced.Mechanics_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Mechanics_1,
+}
+option UXPT_Advanced.Mechanics_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Mechanics_2,
+}
+option UXPT_Advanced.Mechanics_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Mechanics_3,
+}
+
+option UXPT.Tailoring {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Tailoring,
+}
+option UXPT_Advanced.Tailoring_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Tailoring_0,
+}
+option UXPT_Advanced.Tailoring_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Tailoring_1,
+}
+option UXPT_Advanced.Tailoring_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Tailoring_2,
+}
+option UXPT_Advanced.Tailoring_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Tailoring_3,
+}
+
+
+
+option UXPT.Aiming {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Aiming,
+}
+option UXPT_Advanced.Aiming_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Aiming_0,
+}
+option UXPT_Advanced.Aiming_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Aiming_1,
+}
+option UXPT_Advanced.Aiming_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Aiming_2,
+}
+option UXPT_Advanced.Aiming_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Aiming_3,
+}
+option UXPT_Advanced.Aiming_level5mult {
+    type = double, default = 0.37037, min = 0.37037, max = 1,
+    page = UXPT_Advanced, translation = UXPT_Aiming_level5mult,
+}
+
+option UXPT.Reloading {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Reloading,
+}
+option UXPT_Advanced.Reloading_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Reloading_0,
+}
+option UXPT_Advanced.Reloading_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Reloading_1,
+}
+option UXPT_Advanced.Reloading_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Reloading_2,
+}
+option UXPT_Advanced.Reloading_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Reloading_3,
+}
+option UXPT_Advanced.Reloading_Level5_LoadBulletsInMagazine_Xp {
+    type = double, default = 1, min = 0, max = 4,
+    page = UXPT_Advanced, translation = UXPT_Reloading_Level5_LoadBulletsInMagazine_Xp,
+}
+option UXPT_Advanced.Reloading_Level5_LoadBulletsInMagazine_Xp_Chance {
+    type = double, default = 0.2, min = 0, max = 0.5,
+    page = UXPT_Advanced, translation = UXPT_Reloading_Level5_LoadBulletsInMagazine_Xp_Chance,
+}
+option UXPT_Advanced.Reloading_Level5_InsertMagazine_Xp {
+    type = double, default = 1, min = 0, max = 4,
+    page = UXPT_Advanced, translation = UXPT_Reloading_Level5_InsertMagazine_Xp,
+}
+option UXPT_Advanced.Reloading_Level5_InsertMagazine_Xp_Chance {
+    type = double, default = 0.3333, min = 0, max = 1,
+    page = UXPT_Advanced, translation = UXPT_Reloading_Level5_InsertMagazine_Xp_Chance,
+}
+option UXPT_Advanced.Reloading_Level5_ReloadWeaponAction_Xp {
+    type = double, default = 1, min = 0, max = 4,
+    page = UXPT_Advanced, translation = UXPT_Reloading_Level5_ReloadWeaponAction_Xp,
+}
+option UXPT_Advanced.Reloading_Level5_ReloadWeaponAction_Xp_Chance {
+    type = double, default = 0.3333, min = 0, max = 1,
+    page = UXPT_Advanced, translation = UXPT_Reloading_Level5_ReloadWeaponAction_Xp_Chance,
+}
+
+
+
+option UXPT.Fishing {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Fishing,
+}
+option UXPT_Advanced.Fishing_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Fishing_0,
+}
+option UXPT_Advanced.Fishing_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Fishing_1,
+}
+option UXPT_Advanced.Fishing_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Fishing_2,
+}
+option UXPT_Advanced.Fishing_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Fishing_3,
+}
+
+option UXPT.Trapping {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Trapping,
+}
+option UXPT_Advanced.Trapping_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Trapping_0,
+}
+option UXPT_Advanced.Trapping_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Trapping_1,
+}
+option UXPT_Advanced.Trapping_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Trapping_2,
+}
+option UXPT_Advanced.Trapping_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Trapping_3,
+}
+
+option UXPT.PlantScavenging {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Foraging,
+}
+option UXPT_Advanced.PlantScavenging_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Foraging_0,
+}
+option UXPT_Advanced.PlantScavenging_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Foraging_1,
+}
+option UXPT_Advanced.PlantScavenging_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Foraging_2,
+}
+option UXPT_Advanced.PlantScavenging_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Foraging_3,
+}
+
+option UXPT.Other {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT, translation = UXPT_Other,
+}
+option UXPT_Advanced.Other_0 {
+    type = double, default = 0.25, min = 0.25, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Other_0,
+}
+option UXPT_Advanced.Other_1 {
+    type = double, default = 1, min = 1, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Other_1,
+}
+option UXPT_Advanced.Other_2 {
+    type = double, default = 1.3333, min = 1.3333, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Other_2,
+}
+option UXPT_Advanced.Other_3 {
+    type = double, default = 1.6666, min = 1.6666, max = 100,
+    page = UXPT_Advanced, translation = UXPT_Other_3,
+}
+
+
+
+option UXPT_Advanced.Derandomize {
+    type = boolean, default = true,
+    page = UXPT_Advanced, translation = UXPT_Derandomize,
+}
+option UXPT_Advanced.Fitness_interval {
+    type = integer, default = 700, min = 10, max = 10000,
+    page = UXPT_Advanced, translation = UXPT_Fitness_interval,
+}
+option UXPT_Advanced.Strength_interval {
+    type = integer, default = 700, min = 10, max = 10000,
+    page = UXPT_Advanced, translation = UXPT_Strength_interval,
+}
+option UXPT_Advanced.Sprinting_interval {
+    type = integer, default = 700, min = 10, max = 10000,
+    page = UXPT_Advanced, translation = UXPT_Sprinting_interval,
+}
+option UXPT_Advanced.Nimble_interval {
+    type = integer, default = 700, min = 10, max = 10000,
+    page = UXPT_Advanced, translation = UXPT_Nimble_interval,
+}

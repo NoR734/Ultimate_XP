@@ -1,0 +1,5 @@
+UI_ES = {
+    UI_Weapon_Skills ="Habilidades de armas",
+    UI_Other_Weapon_Skills = "Otras habilidades de armas",
+    UI_Everything_Else = "Todo lo demás",
+}
